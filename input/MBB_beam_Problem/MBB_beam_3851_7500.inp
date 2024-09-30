@@ -1,0 +1,22 @@
+*Title
+MBB_beam_3851_7500
+
+*Mesh
+./Mesh/MBB_beam/MBB_beam_3851_7500
+
+*ConstitutiveLaw
+Solid
+linearelasticity
+1.0	0.3
+
+*BCFile
+BDC.BC_MBB_beam
+
+*Plane
+PlaneStress	1.0
+
+*PlasticModel
+PlasticModel.LinearElastic
+
+*ResultDirectory
+./Result/result_MBB_beam/3851_7500

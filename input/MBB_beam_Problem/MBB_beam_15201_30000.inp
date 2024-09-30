@@ -1,0 +1,22 @@
+*Title
+MBB_beam_15201_30000
+
+*Mesh
+./Mesh/MBB_beam/MBB_beam_15201_30000
+
+*ConstitutiveLaw
+Solid
+linearelasticity
+1.0	0.3
+
+*BCFile
+BDC.BC_MBB_beam
+
+*Plane
+PlaneStress	1.0
+
+*PlasticModel
+PlasticModel.LinearElastic
+
+*ResultDirectory
+./Result/result_MBB_beam/15201_30000
