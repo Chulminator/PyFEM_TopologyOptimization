@@ -9,3 +9,5 @@ python3 ./MainTopologyOptimization.py ./input/MBB_beam_Problem/MBB_beam_641_1200
 - scipy
 - pandas
 - mesh.io
+
+See [this post](https://chulminator.github.io/posts/PyFEM-Topology-optimization/) for more details

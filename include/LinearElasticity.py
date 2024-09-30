@@ -112,15 +112,6 @@ def ElementSetUp(Program, Model):
     P    = (P.T / np.sum(P,axis=1)).T
     Model.P  = csc_matrix(P)
 
-    #print(np.sum(P,axis=1))
-    #print(np.sum(P.T,axis=1))
-    #exit(1)
-    ################################################################
-    # Or
-    #Model.P            = np.eye(Model.NElem)
-    ################################################################
-    #print(np.sum(P,axis=0)) should be 1
-
     return
 
 
